@@ -1,0 +1,64 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff; /* White background */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contactPrompt {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .contactForm {
+    width: 100%;
+    max-width: 400px;
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactInput, 
+  .contactTextarea {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .contactTextarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .contactButton {
+    background: #0d6e41f3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .contactButton:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  

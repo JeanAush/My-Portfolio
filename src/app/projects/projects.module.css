@@ -1,0 +1,113 @@
+.projectsSection {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading */
+  .projectsTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projectsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projectsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Project Card */
+  .projectCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Project Title */
+  .projectTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #111;
+  }
+  
+  /* Project Description */
+  .projectDescription {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Tech Stack */
+  .techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .techBadge {
+    background: #e2e8f0;
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  /* Links */
+  .projectLinks {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .projectLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  .projectLink:hover {
+    color: #005bb5;
+  }
+  
+  /* GitHub Link */
+  .projectLinkGitHub {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .projectLinkGitHub:hover {
+    color: #6c63ff;
+  }
+  
+  /* Live Demo Link */
+  .projectLinkLive {
+    color: #38a169;
+    transition: color 0.3s ease;
+  }
+  
+  .projectLinkLive:hover {
+    color: #2f855a;
+  }

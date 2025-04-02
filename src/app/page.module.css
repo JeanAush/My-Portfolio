@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ece5e5 ;
+  color: #333;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.imageWrapper {
+  border-radius: 70%;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+  display: inline-block;
+}
+
+.profileImage {
+    width: 100%; /* Ensures full size inside wrapper */
+    height: 100%;
+    object-fit: cover; /* Prevents stretching */
+    border-radius: 50%;
+  }
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.heading:hover {
+  transform: scale(1.1);
+}
+
+.stamped {
+  animation: stampEffect 1s ease-in-out;
+}
+
+@keyframes stampEffect {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1) rotate(2deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #333;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+
+.description:hover {
+  color: rgb(94, 9, 9);
+}
+
+.funFact {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-style: italic;
+  color: #3a3234;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.funFact:hover {
+  transform: scale(1.05);
+  color: #580606;
+}
