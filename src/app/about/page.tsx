@@ -17,8 +17,8 @@ export default function About() {
             I’m also diving into <strong>DevOps</strong> and containerization to improve deployment and CI/CD workflows.
           </p>
           <p>
-            When I'm not coding, you’ll find me crocheting, creating content on TikTok and Instagram, mentoring others, or contributing to impactful projects like 
-            <strong> TechnoServe</strong> and <strong>vectoratlas.icipe.org</strong>. I love giving back to society and making technology accessible.
+            When I'm not coding, you’ll find me crocheting, creating content on TikTok and Instagram, mentoring others, or contributing to different projects
+            . I love giving back to society and making technology accessible.
           </p>
           <p>
             Looking for a passionate developer who thrives on solving real-world problems? Let's connect!

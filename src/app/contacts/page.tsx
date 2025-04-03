@@ -68,6 +68,8 @@ export default function Contacts() {
 
     return (
         <div className={styles.contactContainer}>
+          
+
             <motion.h1
                 className={styles.contactPrompt}
                 initial={{ y: -20, opacity: 0 }}
